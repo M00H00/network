@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'apiskit_Example' do
+  pod 'apiskit', :path => '../'
+
+  target 'apiskit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
