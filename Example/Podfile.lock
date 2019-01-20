@@ -1,5 +1,27 @@
 PODS:
-  - apiskit (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - apiskit (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - apiskit (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  apiskit: 7668c8c221efc4e7da182b9dd31fa4f9bd9b8cc7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  apiskit: a820ffd992793ce2dff3f07fed911165f4f470a0
 
 PODFILE CHECKSUM: 0cb26abdfcacb6c6ae9d1ec74f006d3f261aab48
 
