@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCF37B3219BAEA5240F5027F /* Pods-apiskit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiskit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-apiskit_Tests/Pods-apiskit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA321A44D9C1A4C588B0A969 /* apiskit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = apiskit.podspec; path = ../apiskit.podspec; sourceTree = "<group>"; };
-		DD5821FEAD185D60BFD393E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA321A44D9C1A4C588B0A969 /* apiskit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = apiskit.podspec; path = ../apiskit.podspec; sourceTree = "<group>"; };
+		DD5821FEAD185D60BFD393E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F336BBB29DAB7910AFD917FB /* Pods_apiskit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiskit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F540F8A84A848DF3F7C9A2F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F540F8A84A848DF3F7C9A2F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC6C73B323B020EC87ED388C /* Pods-apiskit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiskit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-apiskit_Example/Pods-apiskit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -527,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apiskit/apiskit-Prefix.pch";
 				INFOPLIST_FILE = "apiskit/apiskit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apiskit/apiskit-Prefix.pch";
 				INFOPLIST_FILE = "apiskit/apiskit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
